@@ -24,13 +24,22 @@ const NavBar = () => {
         <span style={{ marginLeft: "10px", color: "#fff" }}>Choi Lab</span>
       </div>
       <div style={{ display: "flex", gap: "20px" }}>
-        <Link to="/" style={{ color: "#fff", textDecoration: "none" }}>
+        <Link
+          to="/choi_website/"
+          style={{ color: "#fff", textDecoration: "none" }}
+        >
           Home
         </Link>
-        <Link to="/research" style={{ color: "#fff", textDecoration: "none" }}>
+        <Link
+          to="/choi_website/research"
+          style={{ color: "#fff", textDecoration: "none" }}
+        >
           Research
         </Link>
-        <Link to="/team" style={{ color: "#fff", textDecoration: "none" }}>
+        <Link
+          to="/choi_website/team"
+          style={{ color: "#fff", textDecoration: "none" }}
+        >
           Team
         </Link>
         <a
@@ -39,7 +48,10 @@ const NavBar = () => {
         >
           News
         </a>
-        <Link to="/protocols" style={{ color: "#fff", textDecoration: "none" }}>
+        <Link
+          to="/choi_website/protocols"
+          style={{ color: "#fff", textDecoration: "none" }}
+        >
           Protocols
         </Link>
         <a
@@ -48,10 +60,16 @@ const NavBar = () => {
         >
           Publications
         </a>
-        <Link to="/contacts" style={{ color: "#fff", textDecoration: "none" }}>
+        <Link
+          to="/choi_website/contacts"
+          style={{ color: "#fff", textDecoration: "none" }}
+        >
           Contacts
         </Link>
-        <Link to="/Positions" style={{ color: "#fff", textDecoration: "none" }}>
+        <Link
+          to="/choi_website/positions"
+          style={{ color: "#fff", textDecoration: "none" }}
+        >
           Positions
         </Link>
       </div>

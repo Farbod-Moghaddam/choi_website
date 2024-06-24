@@ -1,9 +1,14 @@
 const Protocols = () => {
   return (
-    <div>
-      <h1>Contact Information</h1>
-      <p>Email: example@example.com</p>
-      <p>Phone: 123-456-7890</p>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        height: "80vh",
+      }}
+    >
+      <h1>Protocols</h1>
     </div>
   );
 };
